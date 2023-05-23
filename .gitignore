@@ -1,0 +1,41 @@
+# ignore clearcase files
+lost+found
+.copyarea.*
+*.keep
+*.loading
+*.merge?
+harvest.sig
+
+# ignore .class files
+*.class
+
+# ignore packaged files #
+
+*.war
+*.ear
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.zip
+*.exe
+
+# ignore all target directories and nested content
+target/
+
+# ignore all generated-sources directories and nested content
+generated-sources/
+
+# ignore the eclipse .settings directory and all children
+.settings/
+# ignore other eclipse files as these aspects are managed by the Maven pom.xml
+.classpath
+.project
+
+/target/
+/test-output/
+/output/
+/Log4J.logs
+
+# ignore bin directories
+bin/
